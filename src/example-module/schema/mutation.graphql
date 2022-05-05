@@ -1,0 +1,4 @@
+type Mutation {
+    mutationOne: String
+    mutationTwo: String
+}

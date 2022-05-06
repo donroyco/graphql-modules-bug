@@ -1,8 +1,0 @@
-overwrite: true
-schema: ['src/**/*.graphql']
-generates:
-  # These are the server-side types, for use inside here graphql-server.
-  src/generated/graphql.ts:
-    plugins:
-      - 'typescript'
-      - 'typescript-resolvers'
